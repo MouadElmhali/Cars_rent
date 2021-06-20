@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfApp1.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        WindowStartupLocation="CenterScreen"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Name="AM_ME"
+        mc:Ignorable="d"
+        Title="Centre notification" Height="459.2" Width="843.6">
+    <Grid>
+        <ListView HorizontalAlignment="Left" Height="332" VerticalAlignment="Top" Width="837" x:Name="notif" Margin="0,98,-0.2,-0.4">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="Centre de notification" HorizontalAlignment="Left" Margin="239,10,0,0" VerticalAlignment="Top" FontSize="36"/>
+
+
+
+        <Label x:Name="labe" Content="Il n'y pas de notification pour le moment" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="239,246,0,0" FontSize="20" Visibility="Hidden"/>
+
+
+
+    </Grid>
+</Window>
